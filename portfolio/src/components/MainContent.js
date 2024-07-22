@@ -8,9 +8,9 @@ import { NavItems } from '../contants';
 
 const MainContent = ({activePage, handleActivePage}) => {
   const data = {
-    isOpen: true,
+    isOpen: false,
     id: null,
-    message: "Thank you for reaching out! I have received your message and will get back to you shortly."
+    message: ""
   }
   const [modalData, setModalData] = useState(data);
 
