@@ -49,7 +49,7 @@ const Sidebar = () => {
           </a>
         </li>
         <li className="social-item">
-          <a href="https://github.com/PRADS78" target="blank" className="social-link">
+          <a href="https://leetcode.com/u/prads_78/" target="blank" className="social-link">
             <img src={leetcode} style={{width:"30px", height:"32px"}}/>
           </a>
         </li>
