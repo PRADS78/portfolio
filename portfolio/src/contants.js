@@ -8,13 +8,14 @@ import hello from "./assets/images/Social/send.svg";
 import file from "./assets/images/Social/files.svg";
 import scheduler from "./assets/images/scheduler.png";
 import restApi from "./assets/images/restAPI.jpg";
+import anjal2 from "./assets/images/my-avatar.png";
 
 export const testimonialData = [
     {
       id: 1,
       name: "Anjal Khan",
       desc: `I have the pleasure of continuing to work closely with Pradeep at Disprz, and his contributions continue to impress me. Pradeep's exceptional skills as a developer are evident in his promptness, quick understanding of project requirements, and ability to offer innovative solutions. His communication skills are remarkable, which is a rare and valuable asset, especially at his level of experience. He consistently demonstrates his commitment to excellence by understanding complex requirements and proposing alternative solutions that streamline our workflow. Pradeep's dedication and proficiency make him an invaluable asset to our team, and I look forward to continuing our collaboration. I wholeheartedly recommend Pradeep to any team seeking a talented, proactive, and communicative developer who consistently delivers outstanding results. I'm grateful for the opportunity to work with him and eagerly anticipate our future collaborations.`,
-      icon: anjal,
+      icon: anjal2,
       time: "May 24, 2024"
     }
   ]

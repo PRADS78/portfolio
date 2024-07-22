@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/images/my-avatar.png";
+import avatar from "../assets/images/avatar.jpg";
 import pk from "../assets/images/Social/logo.png";
 
 const AvatarBox = ({ handleShowContact, isContact }) => {
