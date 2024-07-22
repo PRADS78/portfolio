@@ -699,6 +699,7 @@ main {
   opacity: 0;
   transition: var(--transition-1);
   z-index: 2;
+  max-height: 580px;
 }
 
 .modal-container.active .testimonials-modal {
@@ -751,6 +752,32 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
+}
+
+.modal-text {
+  position: relative;
+  max-height: 378px;
+  overflow-y: auto;
+}
+
+.modal-text::-webkit-scrollbar { width:18px; }
+
+.modal-text::-webkit-scrollbar-track { background: var(--eerie-black-2); }
+
+.modal-text::-webkit-scrollbar-thumb {
+  border: 5px solid var(--eerie-black-2);
+  background: hsla(0, 0%, 100%, 0.1);
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+              inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+}
+
+.modal-text::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+
+.modal-text::-webkit-scrollbar-button { height: 60px; } 
+
+.modal-text::-webkit-backdrop-filter {
+  blur: 3px saturate(106%);
 }
 
 
@@ -1927,6 +1954,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .modal-content{
     padding: 20px;
+  }
+  .modal-text{
+    max-height: 578px !important;
   }
   /**
    * SIDEBAR

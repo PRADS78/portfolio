@@ -36,7 +36,7 @@ const Modal = ({ isOpen, closeModal, id, message }) => {
           <div className="modal-content">
             {id && <h4 className="h3 modal-title">{data.name}</h4>}
             {id && <time datetime="2021-06-23">{data.time}</time>}
-            <div>
+            <div className="modal-text">
               <p>{data.desc}</p>
             </div>
           </div>
