@@ -11,7 +11,7 @@ const Projects = () => {
       <section>
         <ul className="project-list">
           {projectsData.map((project) => (
-            <Tilt>
+            // <Tilt>
               <li
                 key={project.id}
                 className="project-item active"
@@ -34,7 +34,7 @@ const Projects = () => {
                   <p className="project-category">{project.desc}</p>
                 </a>
               </li>
-            </Tilt>
+            // </Tilt>
           ))}
         </ul>
       </section>

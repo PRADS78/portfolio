@@ -29,7 +29,7 @@ const AvatarBox = ({ handleShowContact, isContact }) => {
         }}
       >
         <span>Show Contact</span>
-        <ion-icon name="chevron-down"></ion-icon>
+        {isContact ? <ion-icon name="chevron-up"></ion-icon> : <ion-icon name="chevron-down"></ion-icon>}
       </button>
     </div>
   );
