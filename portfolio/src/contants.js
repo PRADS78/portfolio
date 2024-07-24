@@ -1,4 +1,4 @@
-import anjal from "./assets/images/anjal.jpg";
+// import anjal from "./assets/images/anjal.jpg";
 import design from "./assets/images/icon-design.svg";
 import backend from "./assets/images/icon-dev.svg";
 import sass from "./assets/images/sass.svg";
@@ -78,7 +78,7 @@ export const aboutButtons =[
         id: 2,
         text: "Check Resume",
         icon: file,
-        to:"https://drive.google.com/drive/folders/193slt2C-pWaEkw12GgOuanPH3YsHsWJe"
+        to:"https://drive.google.com/file/d/1SwRdnj2OsYD4ooZeEiUh5dXbxYYLBCEI/view?usp=sharing"
     }
 ]
 
